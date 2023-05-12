@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color:lightblue;
+}
+.wrapper{
+    margin-top: 5%;
+}
+.wrapper h3{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.team{
+    display:flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.team .team-mem{
+    background: #fff;
+    margin:10px;
+    margin-bottom: 50px;
+    width: 400px;
+    padding: 30px;
+    line-height: 20px;
+    color: lightcoral;
+    position: relative;
+}
+.team .team-mem h3{
+    color: purple;
+    margin-top: 30px;
+}
+header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 30px 100px;
+}
+header .navigation a{
+    background:#fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 2px 25px;
+    border-radius: 20px;
+}
+.para{
+    font-style:inherit;
+    font-size: 18px;
+}
+.footer
+{
+    background-color: lightskyblue;
+    font-size: 20px;
+    padding: 21px;
+    font-weight: 500;
+}
